@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJCOE FabLab - Study Screens</title>
+    <style>
+        /* Base Styles */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Header & Logo Area */
+        header {
+            padding: 20px;
+        }
+        .logo-container {
+            background-color: #ffffff;
+            display: inline-block;
+            padding: 10px 40px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        /* Placeholder styling for the logo in case you don't have the image file */
+        .logo-text {
+            font-size: 40px;
+            font-weight: 900;
+            margin: 0;
+            color: #000;
+            letter-spacing: 2px;
+        }
+        .logo-text span.fab { color: #ff3b30; }
+        .logo-text span.lab { color: #af52de; }
+        
+        .site-title {
+            color: #555555;
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin: 10px 0 30px 0;
+        }
+
+        /* Location Sections */
+        .location {
+            margin-bottom: 60px;
+            padding: 0 20px;
+        }
+
+        /* Banners */
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 200px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+            border: 2px solid #333;
+        }
+        
+        /* Add your banner images here */
+        .sf-banner { background-image: url('https://placehold.co/1200x200/333/666?text=San+Francisco+Backdrop'); }
+        .monterey-banner { background-image: url('https://placehold.co/1200x200/333/666?text=Monterey+Backdrop'); }
+        .mv-banner { background-image: url('https://placehold.co/1200x200/333/666?text=Mountain+View+Backdrop'); }
+        .tokyo-banner { background-image: url('https://placehold.co/1200x200/333/666?text=Tokyo+Backdrop'); }
+
+        .banner h2 {
+            font-size: 80px;
+            font-weight: 100;
+            margin: 0;
+            /* White text with a black outline to match the mock-up */
+            color: white;
+            text-shadow:
+                -2px -2px 0 #000,
+                 2px -2px 0 #000,
+                -2px  2px 0 #000,
+                 2px  2px 0 #000;
+        }
+
+        /* Media Containers */
+        .media-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 40%; /* Adjust ratio as needed */
+            height: 0;
+            margin-bottom: 20px;
+            background-color: #cde2f5; /* Light blue placeholder color from mockup */
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .stills-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .stills-row img {
+            width: 32%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #cde2f5;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: border 0.3s ease;
+        }
+
+        .stills-row img:hover {
+            border: 2px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <h1 class="logo-text">SJCOE <span class="fab">FAB</span><span class="lab">LAB</span></h1>
+        </div>
+        <h2 class="site-title">Study Screens</h2>
+    </header>
+
+    <main>
+        <!-- SAN FRANCISCO SECTION -->
+        <section class="location">
+            <div class="banner sf-banner">
+                <h2>San Francisco</h2>
+            </div>
+            <div class="media-container">
+                <!-- Video Section (Replace VIDEO_ID with your YouTube video ID) -->
+                <!-- Note: ?loop=1&playlist=VIDEO_ID is required by YouTube to loop a single video -->
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?loop=1&playlist=dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <!-- Stills Section -->
+                <div class="stills-row">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+1" class="fullscreen-able" alt="SF Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+2" class="fullscreen-able" alt="SF Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+3" class="fullscreen-able" alt="SF Still">
+                </div>
+            </div>
+        </section>
+
+        <!-- MONTEREY SECTION -->
+        <section class="location">
+            <div class="banner monterey-banner">
+                <h2>Monterey</h2>
+            </div>
+            <div class="media-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?loop=1&playlist=YOUR_VIDEO_ID" allowfullscreen></iframe>
+                </div>
+                <div class="stills-row">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+1" class="fullscreen-able" alt="Monterey Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+2" class="fullscreen-able" alt="Monterey Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+3" class="fullscreen-able" alt="Monterey Still">
+                </div>
+            </div>
+        </section>
+
+        <!-- MOUNTAIN VIEW SECTION -->
+        <section class="location">
+            <div class="banner mv-banner">
+                <h2>Mountain View</h2>
+            </div>
+            <div class="media-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?loop=1&playlist=YOUR_VIDEO_ID" allowfullscreen></iframe>
+                </div>
+                <div class="stills-row">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+1" class="fullscreen-able" alt="MV Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+2" class="fullscreen-able" alt="MV Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+3" class="fullscreen-able" alt="MV Still">
+                </div>
+            </div>
+        </section>
+
+        <!-- TOKYO SECTION -->
+        <section class="location">
+            <div class="banner tokyo-banner">
+                <h2>Tokyo</h2>
+            </div>
+            <div class="media-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?loop=1&playlist=YOUR_VIDEO_ID" allowfullscreen></iframe>
+                </div>
+                <div class="stills-row">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+1" class="fullscreen-able" alt="Tokyo Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+2" class="fullscreen-able" alt="Tokyo Still">
+                    <img src="https://placehold.co/400x300/cde2f5/000?text=Still+3" class="fullscreen-able" alt="Tokyo Still">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript for Fullscreen Functionality -->
+    <script>
+        // Select all images with the 'fullscreen-able' class
+        const fullscreenImages = document.querySelectorAll('.fullscreen-able');
+
+        fullscreenImages.forEach(img => {
+            img.addEventListener('click', () => {
+                // Check for fullscreen API support across different browsers
+                if (img.requestFullscreen) {
+                    img.requestFullscreen();
+                } else if (img.webkitRequestFullscreen) { /* Safari */
+                    img.webkitRequestFullscreen();
+                } else if (img.msRequestFullscreen) { /* IE11 */
+                    img.msRequestFullscreen();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
