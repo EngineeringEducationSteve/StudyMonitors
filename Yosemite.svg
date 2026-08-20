@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Yosemite Valley</title>
+  <desc id="description">A stylized view of Yosemite's granite cliffs, pine forest, and river at sunrise.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6089a7"/>
+      <stop offset="1" stop-color="#f4bf7d"/>
+    </linearGradient>
+    <linearGradient id="cliff" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ddd0b8"/>
+      <stop offset="1" stop-color="#756c61"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e9da3"/>
+      <stop offset="1" stop-color="#263f48"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  <circle cx="620" cy="92" r="50" fill="#ffe4a3" opacity=".8"/>
+  <path d="M0 60 115 45 230 110 285 300H0Z" fill="#565a54"/>
+  <path d="M0 92 108 70 175 104 250 118 290 300H0Z" fill="url(#cliff)"/>
+  <path d="M930 30h130l140 80v190H855l42-120 33-34Z" fill="#50544f"/>
+  <path d="M975 55h72l153 78v167H880l48-121 47-31Z" fill="url(#cliff)"/>
+  <path d="M0 215q210-45 400 4t380-1q205-50 420 7v75H0Z" fill="#213d30"/>
+  <path d="M425 300q65-70 173-64 115 6 186 64Z" fill="url(#water)"/>
+  <g fill="#142d25">
+    <path d="m75 230 25-80 25 80h-15v48H90v-48Z"/><path d="m170 245 21-66 22 66h-13v40h-18v-40Z"/>
+    <path d="m310 234 25-82 26 82h-16v55h-20v-55Z"/><path d="m820 239 24-76 24 76h-14v45h-20v-45Z"/>
+    <path d="m1050 232 26-84 27 84h-16v57h-21v-57Z"/><path d="m1130 248 20-63 21 63h-12v39h-18v-39Z"/>
+  </g>
+</svg>
