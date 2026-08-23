@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-labelledby="title description">
+  <title id="title">Sunlit woods</title>
+  <desc id="description">Layers of evergreen trees beneath a softly glowing sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e3b5"/>
+      <stop offset="1" stop-color="#344e32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#sky)"/>
+  <circle cx="930" cy="45" r="55" fill="#fff7c7" opacity=".55"/>
+  <g fill="#28442e" opacity=".8">
+    <path d="M40 200 120 35l80 165zm125 0 95-190 95 190zm165 0 75-145 75 145zm600 0 85-165 85 165zm135 0 70-140 70 140z"/>
+  </g>
+  <g fill="#152d21">
+    <path d="M-35 200 45 65l80 135zm415 0 105-195 105 195zm145 0 75-140 75 140zm95 0L730 15l110 185zm140 0 75-125 75 125z"/>
+  </g>
+</svg>
