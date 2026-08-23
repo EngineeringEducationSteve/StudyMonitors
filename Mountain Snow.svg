@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-labelledby="title description">
+  <title id="title">Snow-covered mountains</title>
+  <desc id="description">A range of snowy mountain peaks beneath a crisp blue sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#477da6"/>
+      <stop offset="1" stop-color="#c7dfeb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#sky)"/>
+  <path d="M0 200 210 75l80 54L430 22l126 120L705 48l105 93 96-61 294 120z" fill="#718796"/>
+  <path d="m210 75-72 84 72-34 35 16 45-12zm220-53-91 110 82-37 36 36 38-47zm275 26-75 92 71-38 40 34 32-28zm201 32-52 62 51-25 34 23 32-18z" fill="#f4f8fa"/>
+  <path d="M0 181q165-23 330 1t310-3q196-31 560 4v17H0z" fill="#dceaf0"/>
+</svg>

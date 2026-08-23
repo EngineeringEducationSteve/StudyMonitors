@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-labelledby="title description">
+  <title id="title">East Bay landscape</title>
+  <desc id="description">Golden East Bay hills overlooking blue water and a distant city.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#78b7d0"/>
+      <stop offset="1" stop-color="#e8cf8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#sky)"/>
+  <path d="M0 135Q170 90 350 140T700 125t500 0v75H0z" fill="#496f67"/>
+  <path d="M0 158Q210 115 420 160t390-8q190-47 390 10v38H0z" fill="#b28b45"/>
+  <path d="M0 172Q280 150 540 176t660-12v36H0z" fill="#356d86"/>
+  <g fill="#32464c">
+    <path d="M780 105h10v53h-10zm-40 24h8v29h-8zm95-14h13v43h-13zm48 20h9v23h-9z"/>
+    <path d="M718 156h195v4H718z"/>
+  </g>
+</svg>
